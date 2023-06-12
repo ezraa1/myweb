@@ -4,9 +4,9 @@ import React from "react";
 
 function Home(){
 return(
-    <div>
-gcfhgvjkjgjjgjjj
-    </div>
+<div>
+    dfggfff
+</div>
 )
 }
 export default Home;

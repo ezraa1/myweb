@@ -1,28 +1,34 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Nav from 'react-bootstrap/Nav';
 
 
 function Navlinks(){
 return(
-    <div>
-        <li>
-            <Link to="/">Home</Link>
+    <div >
+        <Nav className="justify-content-end"  >
+        <Nav.Item>
+            <li>
+        <Nav.Link  href="/">Home</Nav.Link>
+        </li>
+        </Nav.Item>
+        <Nav.Item>
+        <Nav.Link  href="/about">About</Nav.Link>
 
-        </li>
-        <li>
-            <Link to="/about">About</Link>
+        </Nav.Item>
+        <Nav.Item>
+        <Nav.Link  href="/skills">Skills</Nav.Link>
 
-        </li>
-        <li>
-            <Link to="/skills">Skills</Link>
-        </li>
-        <li>
-            <Link to="/projects">Projects</Link>
-        </li>
-        <li>
-            <Link to="/contact">Contact</Link>
-        </li>
+        </Nav.Item>
+        <Nav.Item>
+        <Nav.Link  href="/projects">Projects</Nav.Link>
 
+        </Nav.Item>
+        <Nav.Item>
+        <Nav.Link  href="/contact">Contact</Nav.Link>
+
+        </Nav.Item>
+        </Nav>
     </div>
 )
 }
