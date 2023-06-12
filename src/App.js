@@ -1,15 +1,32 @@
-
-import './App.css';
+import {Route, Routes, BrowserRouter} from 'react-router-dom';
+import Home from './components/Home';
+import About from './components/About';
+import Navlinks from './components/Navlinks';
+import Contact from './components/Contact';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 function App() {
   return (
-<div class="hero-image">
-  <div class="hero-text">
-    <h1>I am Kipchirchir Ezra</h1>
-    <p>And I'm a web developer</p>
-    <button>Hire me</button>
-  </div>
-</div>
+    
+      <div>
+        
+       <Navlinks/>
+
+        <Routes>
+        <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="skills" element={<Skills/>} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          
+        </Routes>
+        <div>
+          <img src={require('./assets/avatar.jpg')} alt='avatar'/>
+        </div>
+      </div>
+    
+    
   );
 }
 

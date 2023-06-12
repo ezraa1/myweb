@@ -6,17 +6,21 @@ function Navlinks(){
 return(
     <div>
         <li>
-            <Link to="/">About</Link>
+            <Link to="/">Home</Link>
 
         </li>
         <li>
-            <Link to="skills">Skills</Link>
+            <Link to="/about">About</Link>
+
         </li>
         <li>
-            <Link to="projects">Projects</Link>
+            <Link to="/skills">Skills</Link>
         </li>
         <li>
-            <Link to="contact">Contact</Link>
+            <Link to="/projects">Projects</Link>
+        </li>
+        <li>
+            <Link to="/contact">Contact</Link>
         </li>
 
     </div>
