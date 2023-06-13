@@ -9,23 +9,23 @@ return(
         <Nav className="justify-content-end"  >
         <Nav.Item>
             <li>
-        <Nav.Link  href="/">Home</Nav.Link>
+        <Nav.Link  href="/" style={{ color: '#d8e2dc',fontSize: 20 }}>Home</Nav.Link>
         </li>
         </Nav.Item>
         <Nav.Item>
-        <Nav.Link  href="/about">About</Nav.Link>
+        <Nav.Link  href="/about" style={{ color: '#d8e2dc',fontSize: 20 }}>About</Nav.Link>
 
         </Nav.Item>
         <Nav.Item>
-        <Nav.Link  href="/skills">Skills</Nav.Link>
+        <Nav.Link  href="/skills" style={{ color: '#d8e2dc',fontSize: 20 }}>Skills</Nav.Link>
 
         </Nav.Item>
         <Nav.Item>
-        <Nav.Link  href="/projects">Projects</Nav.Link>
+        <Nav.Link  href="/projects" style={{ color: '#d8e2dc',fontSize: 20 }}>Projects</Nav.Link>
 
         </Nav.Item>
         <Nav.Item>
-        <Nav.Link  href="/contact">Contact</Nav.Link>
+        <Nav.Link  href="/contact" style={{ color: '#d8e2dc' ,fontSize: 20}}>Contact</Nav.Link>
 
         </Nav.Item>
         </Nav>
