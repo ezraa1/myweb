@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Form from 'react-bootstrap/Form';
 
 const EmailContactForm = () => {
  const form = useRef();
@@ -16,15 +17,27 @@ const EmailContactForm = () => {
  };
 
  return (
+  
+    <Form style={{marginRight:1000, marginLeft:20}}>
+      <h4 style={{ color: '#d8e2dc' ,fontSize: 20}}>You can contact me here</h4>
    <form ref={form} onSubmit={sendEmail}>
-     <label>Name</label>
-     <input type="text" name="user_name" />
-     <label>Email</label>
-     <input type="email" name="user_email" />
-     <label>Message</label>
+   <Form.Group className="mb-3" controlId="formGroupName">
+     <Form.Label>Name</Form.Label>
+     <Form.Control type="text" name="user_name" />
+     </Form.Group>
+
+     <Form.Group className="mb-3" controlId="formGroupEmail">
+     <Form.Label>Email</Form.Label>
+     <Form.Control type="email" name="user_email" />
+     </Form.Group>
+
+     <Form.Group className="mb-3" controlId="formGroupMessage">
+     <Form.Label>Message</Form.Label>
      <textarea name="message" />
-     <input type="submit" value="Send" />
+     </Form.Group>
+     <Form.Control type="submit" value="Send" />
    </form>
+   </Form>
  );
 };
 

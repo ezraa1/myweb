@@ -14,9 +14,16 @@ code {
 }
  /* image styling */
  img{
+  
+  width: 30%;
+  margin-left: 50%;
+ 
+  background-attachment: fixed;
+  /* margin-top:10%;
   width: 30%;
   height: auto;
   margin-left: 50%;
+  position:auto; */
  }
   
 /* nav link color */

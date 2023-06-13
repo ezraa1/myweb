@@ -17,7 +17,11 @@ return(
          .start();
  }}
 />
+<div >
+          <img src={require('./assets/avatar.jpg')} alt='avatar'/>
+        </div>
 </div>
+
 )
 }
 export default Home;

@@ -21,9 +21,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           
         </Routes>
-        <div>
-          <img src={require('./assets/avatar.jpg')} alt='avatar'/>
-        </div>
+
       </div>
     
     
