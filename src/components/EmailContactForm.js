@@ -18,8 +18,9 @@ const EmailContactForm = () => {
 
  return (
   
-    <Form style={{marginRight:1000, marginLeft:20}}>
-      <h4 style={{ color: '#d8e2dc' ,fontSize: 20}}>You can contact me here</h4>
+    <Form style={{marginRight:400, marginLeft:300}}>
+      <i class='fas fa-envelope-open'style={{fontSize:50}}></i>
+      <h4 style={{ color: '#d8e2dc' }}>You can contact me here   <i class='fas fa-hand-point-down'style={{marginLeft:10}}></i></h4>
    <form ref={form} onSubmit={sendEmail}>
    <Form.Group className="mb-3" controlId="formGroupName">
      <Form.Label>Name</Form.Label>
@@ -32,10 +33,10 @@ const EmailContactForm = () => {
      </Form.Group>
 
      <Form.Group className="mb-3" controlId="formGroupMessage">
-     <Form.Label>Message</Form.Label>
-     <textarea name="message" />
+     <Form.Label>Message</Form.Label><br></br>
+     <  textarea name="message" row="4"/>
      </Form.Group>
-     <Form.Control type="submit" value="Send" />
+     <Form.Control type="submit" value="Send" style={{backgroundColor:""}}/>
    </form>
    </Form>
  );

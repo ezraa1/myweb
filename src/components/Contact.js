@@ -3,10 +3,12 @@ import EmailContactForm from "./EmailContactForm";
 
 
 
+
 function Contact(){
 return(
-    <div>
+    <div id="cont">
         <EmailContactForm/>
+        {/* <i class='fas fa-phone-alt' style={{fontSize:48, }}></i> */}
 
     </div>
 )
