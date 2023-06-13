@@ -13,18 +13,21 @@ code {
     monospace;
 }
  /* image styling */
- img{
-  
-  width: 30%;
-  margin-left: 50%;
- 
-  background-attachment: fixed;
-  /* margin-top:10%;
-  width: 30%;
-  height: auto;
-  margin-left: 50%;
-  position:auto; */
- }
+li{
+ float: left;
+  list-style-type: none;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+li img{
+  height: 90px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+h3{
+  padding-left: 20px;
+}
   
 /* styling contact form */
 .cont{

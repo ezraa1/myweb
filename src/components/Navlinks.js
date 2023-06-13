@@ -8,9 +8,9 @@ return(
     <div >
         <Nav className="justify-content-end"  >
         <Nav.Item>
-            <li>
+           
         <Nav.Link  href="/" style={{ color: '#d8e2dc',fontSize: 20 }}>Home</Nav.Link>
-        </li>
+        
         </Nav.Item>
         <Nav.Item>
         <Nav.Link  href="/about" style={{ color: '#d8e2dc',fontSize: 20 }}>About</Nav.Link>
