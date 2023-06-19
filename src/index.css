@@ -5,7 +5,21 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #5c677d;
+  background: linear-gradient(-45deg, #ffeb3b, #5d8bee, #4d2c53);
+    background-size: 400% 400%;
+    animation: gradient-bg 20s ease infinite;
+}
+
+@keyframes gradient-bg {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	80% {
+		background-position: 0% 50%;
+	}
 }
 
 code {
@@ -33,4 +47,34 @@ h3{
 .cont{
   margin-left: 50%;
   
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+.field label {
+  display: block;
+  font-size: 20px;
+  color: #d8e2dc;
+}
+
+.field input {
+  display: block;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 20px;
+  background-color: #4460AA;
+  color: #fff;
+  border: none
+}
+form{
+  margin-left: 40%;
+  margin-top: 10%;
 }
