@@ -23,7 +23,8 @@ return(
         </div>
         <div>
             <a href={require("./assets/kipchirchir.updated.resume.pdf") }target="_blank" rel="noopener noreferrer">
-<button style={{marginBottom:10}} >View Resume </button>
+                <div className="bt">
+<button  >View Resume </button></div>
 </a>
 </div>
 
