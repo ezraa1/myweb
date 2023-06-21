@@ -22,7 +22,7 @@ return(
           <img src={require('./assets/avatar.jpg')} alt='avatar' />
         </div>
         <div>
-            <a href="https://drive.google.com/file/d/1cy-74pe1hWIfDJspEiExi4P5dpJF7zuB/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+            <a href={require("./assets/kipchirchir.updated.resume.pdf") }target="_blank" rel="noopener noreferrer">
 <button style={{marginBottom:10}} >View Resume </button>
 </a>
 </div>
