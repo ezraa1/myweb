@@ -18,8 +18,8 @@ return(
  }}
 />
 
-<div>
-          <img src={require('./assets/avatar.jpg')} alt='avatar' style={{width:500, marginLeft:500, height:500, marginTop:-50}}/>
+<div className="new">
+          <img src={require('./assets/avatar.jpg')} alt='avatar' />
         </div>
         <div>
             <a href="https://drive.google.com/file/d/1cy-74pe1hWIfDJspEiExi4P5dpJF7zuB/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">

@@ -81,3 +81,41 @@ form{
   margin-left: 40%;
   margin-top: 10%;
 }
+
+.new img{
+  
+  width: 400px;
+  height: auto;
+  margin-left: 45%;
+}
+/* .justify-content-end{
+  background-color: red;
+} */
+
+@media screen and (max-width: 600px) {
+  .new img{
+  
+    width: 150px;
+    height: auto;
+    margin-left: 47%;
+    margin-top: 10%;
+    padding-bottom: 20px;
+  }
+ 
+  .justify-content-end{
+    
+    margin-right: 0% !important;
+  }
+
+  form{
+    margin-left: 5%;
+  }
+  li img{
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 0px;
+  }
+  h3{
+    padding-left: 6px;
+  }
+}
